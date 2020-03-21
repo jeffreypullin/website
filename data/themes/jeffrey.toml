@@ -1,0 +1,19 @@
+# Theme metadata
+# Adapted from the Forest
+name = "jeffrey"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#4caf50"
+
+# Menu
+menu_primary = "#009933"
+menu_text = "#fff"
+menu_text_active = "#1b5e20"
+menu_title = "#fff"
+
+# Home sections
+home_section_odd = "#fbf9f4"
+home_section_even = "#fbf9f4"
