@@ -30,7 +30,7 @@ social:
 superuser: true
 ---
 
-I am currently a Master of Science (Mathematics and Statistics) student at the University of Melbourne. I am writing my thesis on statistical problems in single cell RNASeq data, under the supervision of [Davis McCarthy](https://www.svi.edu.au/research_themes/bioinformatics_and_cellular_genomics). I also work part time as a research assistant in the [Crismani Lab](https://wcrismani.wixsite.com/research) at the St Vincents Institute of Medical Research. 
+I am currently a Master of Science (Mathematics and Statistics) student at the University of Melbourne. I am writing my thesis on statistical problems in single cell RNASeq data, under the supervision of [Davis McCarthy](https://www.svi.edu.au/research_themes/bioinformatics_and_cellular_genomics). I also work part time as a research assistant in the [Wayne Crismani's Lab](https://wcrismani.wixsite.com/research) at the St Vincents Institute of Medical Research. 
 
 Previously I worked as a graduate at the [Australian Institute of Health and Welfare](https://www.aihw.gov.au/) in their statistical support team. 
 
