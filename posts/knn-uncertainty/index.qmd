@@ -3,6 +3,7 @@ title: "Visualising uncertainty in KNN graphs for scRNAseq data"
 author: "Jeffrey Pullin"
 date: "2023-03-31"
 categories: [code, analysis]
+image: tsne-with-uncertainty.png
 ---
 
 In this post I describe an idea for quantifying and visualizing uncertainty in k-nearest neighbour (KNN) graphs in single-cell RNA sequencing data. 
