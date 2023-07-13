@@ -26,6 +26,7 @@ library(scater)
 library(scran)
 library(igraph)
 library(tidyverse)
+library(EnsDb.Hsapiens.v86)
 ```
 
 Next, we load the pbm3k data, and quickly process it using standard Biocondutor packages. Specifically we:
@@ -117,3 +118,20 @@ We can see that cells in the B cell, monocytes and NK cells cluster have general
 These results suggest that clustering the T-cells is generally going to be less reliable, so perhaps any T-cell sub-clusters are not (or at least less) biologically meaningful. 
 
 The method presented in this post is clearly half-baked but if it is of interest to anyone please get in touch!
+
+Addendum: 
+
+```{r}
+location <- mapIds(EnsDb.Hsapiens.v86, keys = rowData(pbmc3k)$ENSEMBL_ID, 
+                   column = "SEQNAME", keytype = "GENEID")
+stats <- perCellQCMetrics(pbmc3k, subsets = list(Mito = which(location == "MT")))
+high_mito <- isOutlier(stats$subsets_Mito_percent, type="higher")
+pbmc3k$discard <- high_mito
+
+plotTSNE(pbmc3k, colour_by = "discard")
+
+discard_ind <- which(pbmc3k$discard)
+zero_ind <- which(prop <= 0.01)
+
+table(discard_ind %in% zero_ind)
+```

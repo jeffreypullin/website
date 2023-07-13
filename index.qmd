@@ -1,14 +1,47 @@
 ---
 title: "Jeffrey Pullin"
+about:
+  template: trestles
+  image: "jeffrey-headshot.jpg"
+  links:
+    - icon: twitter
+      href: https://twitter.com/jeffreypullin
+    - icon: github
+      href: https://github.com/jeffreypullin
+format:
+  html:
+    page-layout: full
+navbar: true
 listing:
-  contents: posts
+  contents: post
   sort: "date desc"
-  type: default
+  type: grid
   categories: false
+  feed: true
   sort-ui: false
   filter-ui: false
-page-layout: full
-title-block-banner: true
+  max-items: 3
 ---
 
+In October 2023, I will commence a PhD, funded by a Gates Scholarship, in the MRC Biostatistics Unit at the University of Cambridge and supervised by Dr Chris Wallace. My project focuses on improving statistical methodology for performing colocalisation analysis in genetics, with a particular focus on the ‘coloc’ software.
 
+Previously, I completed a Master of Science (Mathematics and Statistics) at the University of Melbourne. My thesis, supervised by Dr Davis McCarthy, compared different statistical methods for selecting genes that distinguish biological cell-types in single-cell RNA-sequencing data. I won the Dwight Prize in Mathematical Statistics as the highest-scoring student in the statistics and stochastic processes specialization in the MSc. I completed my BSc (Mathematics and Statistics) at the University of Melbourne in 2018. 
+
+I have also worked as a:
+
+*  Senior Analyst/Statistician at the Victorian Agency for Health Information, part of the Victorian Department of Health, 
+*  Graduate at the Australian Institute of Health and Welfare, and,
+*  Research assistant (Part-time) in Wayne Crismani’s Lab at the St Vincent’s Institute of Medical Research.
+
+You can find me [on Twitter](https://twitter.com/jeffreypullin) or email me at jeffrey.pullin[at]gmail.com
+
+## Education
+
+**PhD in Biostatistics**<br>
+University of Cambridge , 2023 ---<br>
+
+**Master of Science (Mathematics and Statistics)**<br>
+University of Melbourne, 2021
+
+**Bachelor of Science**<br>
+University of Melbourne, 2018

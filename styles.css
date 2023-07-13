@@ -1,1 +1,13 @@
 /* css styles */
+
+/* css styles */
+
+/* centre figure captions */
+.figure-caption{
+   text-align: center;
+}
+
+.quarto-title-banner{
+  background: #dce3da;
+  color: #323331;
+}

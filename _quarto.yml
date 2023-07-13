@@ -10,10 +10,22 @@ website:
         href:  https://github.com/jeffreypullin
       - icon: twitter
         href: https://twitter.com/jeffreypullin
+
 format:
   html:
-    theme: cosmo
+    theme: simplex
     css: styles.css
+    fontsize: 1.2em
+    linestretch: 1.7
+    mainfont: Helvetica, Arial, sans
+    monofont: Cascadia Mono, Menlo, Courier New
+    backgroundcolor: "white"
+    fontcolor: "#323331"
+    knitr:
+      opts_chunk:
+        dev: "ragg_png"
+
+editor: source
 
 
 
