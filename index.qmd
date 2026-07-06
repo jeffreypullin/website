@@ -8,7 +8,7 @@ about:
       href: https://bsky.app/profile/jeffreypullin.bsky.social
     - icon: github
       href: https://github.com/jeffreypullin
-    - text: <i class="ai ai-google-scholar" role="img"></i>
+    - text: "{{{< ai google-scholar >}}}"
       href: https://scholar.google.co.uk/citations?user=ruDb6ZsAAAAJ&hl=en
 format:
   html:
